@@ -82,7 +82,7 @@ const Login = () => {
             </p>
             <p>Forgot Password</p>
           </div>
-          <Link href="/form">
+          <Link href="/products/add-product">
             <a className="text-yellow-900 w-full  px-[8.8rem] py-2 bg-[#2b6e70] shadow-lg  font-semibold rounded-lg">
               Sign In
             </a>

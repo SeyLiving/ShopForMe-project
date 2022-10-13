@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { ImQuotesLeft } from 'react-icons/im';
+import Bounce  from "react-reveal/Bounce";
 
 const Main = () => {
   return (
@@ -24,352 +25,378 @@ const Main = () => {
       </div>
 
       <div className="grid md:grid-cols-4 m-2    lg:gap-[2rem] mx-20 bg-pink-200 ">
-        <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-          <a href="#">
-            <Image
-              src="/assets/milo.jpg"
-              alt="me"
-              width="150px"
-              height="150px"
-              layout="responsive"
-              objectFit="cover"
-              className="max-w-lg h-auto rounded-lg transition-all duration-300 cursor-pointer"
-            />
-          </a>
-          <div class="px-5 pb-1">
-            <h5 class="text-xl font-semibold tracking-tight text-yellow-500 dark:text-yellow">
-              Milo
-            </h5>
-            <p className="text-gray-300">
-              Start your day with new energy and power from Milo.{" "}
-            </p>
-            <div class="flex items-center mt-2.5 mb-1"></div>
-            <div class="flex justify-between items-center">
-              <span class="text-xl font-bold text-gray-400 dark:text-white">
-                GHs 22.00
-              </span>
-            </div>
-          </div>
-        </div>
-        <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-          <a href="#">
-            <Image
-              src="/assets/tpaste.jpeg"
-              alt="me"
-              width="10px"
-              height="10x"
-              layout="responsive"
-              objectFit="cover"
-              className="max-w-lg h-auto rounded-lg transition-all duration-300 cursor-pointer"
-            />
-          </a>
-          <div class="px-5 pb-1">
+        <Bounce Left>
+          <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
+              <Image
+                src="/assets/milo.jpg"
+                alt="me"
+                width="150px"
+                height="150px"
+                layout="responsive"
+                objectFit="cover"
+                className="max-w-lg h-auto rounded-lg transition-all duration-300 cursor-pointer"
+              />
+            </a>
+            <div class="px-5 pb-1">
               <h5 class="text-xl font-semibold tracking-tight text-yellow-500 dark:text-yellow">
-                Colgate ToothPaste
+                Milo
               </h5>
               <p className="text-gray-300">
-                Always keep white, clean and fresh breath for the day.
+                Start your day with new energy and power from Milo.
               </p>
-            </a>
-            <div class="flex items-center mt-2.5 mb-1"></div>
-            <div class="flex justify-between items-center">
-              <span class="text-xl font-bold text-gray-400 dark:text-white">
-                GHs 10.00
-              </span>
+              <div class="flex items-center mt-2.5 mb-1"></div>
+              <div class="flex justify-between items-center">
+                <span class="text-xl font-bold text-gray-400 dark:text-white">
+                  GHs 22.00
+                </span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-          <a href="#">
-            <Image
-              src="/assets/pad.jpg"
-              alt="me"
-              width="150px"
-              height="150px"
-              layout="responsive"
-              objectFit="cover"
-              className="max-w-lg h-auto rounded-lg transition-all duration-300 cursor-pointer"
-            />
-          </a>
-          <div class="px-5 pb-1">
+        </Bounce>
+        <Bounce Left>
+          <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <h5 class="text-xl font-semibold tracking-tight text-yellow-500 dark:text-yellow">
-                Paree Sanitary Pad
-              </h5>
-              <p className="text-gray-300">
-                No leak, No stain from a paree sanitary pads. Stay dray & Clean.
-              </p>
+              <Image
+                src="/assets/tpaste.jpeg"
+                alt="me"
+                width="10px"
+                height="10x"
+                layout="responsive"
+                objectFit="cover"
+                className="max-w-lg h-auto rounded-lg transition-all duration-300 cursor-pointer"
+              />
             </a>
-            <div class="flex items-center mt-2.5 mb-1"></div>
-            <div class="flex justify-between items-center">
-              <span class="text-xl font-bold text-gray-400 dark:text-white">
-                GHs 15.00
-              </span>
+            <div class="px-5 pb-1">
+              <a href="#">
+                <h5 class="text-xl font-semibold tracking-tight text-yellow-500 dark:text-yellow">
+                  Colgate ToothPaste
+                </h5>
+                <p className="text-gray-300">
+                  Always keep white, clean and fresh breath for the day.
+                </p>
+              </a>
+              <div class="flex items-center mt-2.5 mb-1"></div>
+              <div class="flex justify-between items-center">
+                <span class="text-xl font-bold text-gray-400 dark:text-white">
+                  GHs 10.00
+                </span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-          <a href="#">
-            <Image
-              src="/assets/soap.jpeg"
-              alt="me"
-              width="150px"
-              height="150px"
-              layout="responsive"
-              objectFit="cover"
-              className="max-w-lg h-auto rounded-lg transition-all uration-300 cursor-pointer"
-            />
-          </a>
-          <div class="px-5 pb-1">
+        </Bounce>
+        <Bounce Left>
+          <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <h5 class="text-xl font-semibold tracking-tight text-yellow-500 dark:text-yellow">
-                Geisha Natural Soap
-              </h5>
-              <p className="text-gray-300">
-                Glow with the all new Moringa oil Geisha soap.
-              </p>
+              <Image
+                src="/assets/pad.jpg"
+                alt="me"
+                width="150px"
+                height="150px"
+                layout="responsive"
+                objectFit="cover"
+                className="max-w-lg h-auto rounded-lg transition-all duration-300 cursor-pointer"
+              />
             </a>
-            <div class="flex items-center mt-2.5 mb-1"></div>
-            <div class="flex justify-between items-center">
-              <span class="text-xl font-bold text-gray-400 dark:text-white">
-                GHs 9.00
-              </span>
+            <div class="px-5 pb-1">
+              <a href="#">
+                <h5 class="text-xl font-semibold tracking-tight text-yellow-500 dark:text-yellow">
+                  Paree Sanitary Pad
+                </h5>
+                <p className="text-gray-300">
+                  No leak, No stain from a paree sanitary pads. Stay dray &
+                  Clean.
+                </p>
+              </a>
+              <div class="flex items-center mt-2.5 mb-1"></div>
+              <div class="flex justify-between items-center">
+                <span class="text-xl font-bold text-gray-400 dark:text-white">
+                  GHs 15.00
+                </span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-          <a href="#">
-            <Image
-              src="/assets/indomie.jpg"
-              alt="me"
-              width="150px"
-              height="150px"
-              layout="responsive"
-              objectFit="cover"
-              className="max-w-lg h-auto rounded-lg transition-all duration-300 cursor-pointer"
-            />
-          </a>
-          <div class="px-5 pb-5">
+        </Bounce>
+        <Bounce Left>
+          <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <h5 class="text-xl font-semibold tracking-tight text-yellow-500 dark:text-yellow">
-                Indomie Instant Noodles
-              </h5>
-              <p className="text-gray-300">
-                Tasty, spicy noodles available today on ShopForMe.
-              </p>
+              <Image
+                src="/assets/soap.jpeg"
+                alt="me"
+                width="150px"
+                height="150px"
+                layout="responsive"
+                objectFit="cover"
+                className="max-w-lg h-auto rounded-lg transition-all uration-300 cursor-pointer"
+              />
             </a>
-            <div class="flex items-center mt-2.5 mb-1"></div>
-            <div class="flex justify-between items-center">
-              <span class="text-xl font-bold text-gray-400 dark:text-white">
-                GHs 5.00
-              </span>
+            <div class="px-5 pb-1">
+              <a href="#">
+                <h5 class="text-xl font-semibold tracking-tight text-yellow-500 dark:text-yellow">
+                  Geisha Natural Soap
+                </h5>
+                <p className="text-gray-300">
+                  Glow with the all new Moringa oil Geisha soap.
+                </p>
+              </a>
+              <div class="flex items-center mt-2.5 mb-1"></div>
+              <div class="flex justify-between items-center">
+                <span class="text-xl font-bold text-gray-400 dark:text-white">
+                  GHs 9.00
+                </span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-          <a href="#">
-            <Image
-              src="/assets/yazz.jpg"
-              alt="me"
-              width="150px"
-              height="150px"
-              layout="responsive"
-              objectFit="cover"
-              className="max-w-lg h-auto rounded-lg transition-all duration-300 cursor-pointer"
-            />
-          </a>
-          <div class="px-5 pb-1">
+        </Bounce>
+        <Bounce Left>
+          <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <h5 class="text-xl font-semibold tracking-tight text-yellow-500 dark:text-yellow">
-                Yazz Washing Powder
-              </h5>
-              <p className="text-gray-300">
-                Wash well, Smell fresh with Yazz washing powder.
-              </p>
+              <Image
+                src="/assets/indomie.jpg"
+                alt="me"
+                width="150px"
+                height="150px"
+                layout="responsive"
+                objectFit="cover"
+                className="max-w-lg h-auto rounded-lg transition-all duration-300 cursor-pointer"
+              />
             </a>
-            <div class="flex items-center mt-2.5 mb-1"></div>
-            <div class="flex justify-between items-center">
-              <span class="text-xl font-bold text-gray-400 dark:text-white">
-                GHs 80.00
-              </span>
+            <div class="px-5 pb-5">
+              <a href="#">
+                <h5 class="text-xl font-semibold tracking-tight text-yellow-500 dark:text-yellow">
+                  Indomie Instant Noodles
+                </h5>
+                <p className="text-gray-300">
+                  Tasty, spicy noodles available today on ShopForMe.
+                </p>
+              </a>
+              <div class="flex items-center mt-2.5 mb-1"></div>
+              <div class="flex justify-between items-center">
+                <span class="text-xl font-bold text-gray-400 dark:text-white">
+                  GHs 5.00
+                </span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-          <a href="#">
-            <Image
-              src="/assets/spray1.jpg"
-              alt="me"
-              width="150px"
-              height="150px"
-              layout="responsive"
-              objectFit="cover"
-              className="max-w-lg h-auto rounded-lg transition-all duration-300 cursor-pointer"
-            />
-          </a>
-          <div class="px-5 pb-1">
+        </Bounce>
+        <Bounce Left>
+          <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <h5 class="text-xl font-semibold tracking-tight text-yellow-500 dark:text-yellow">
-                Lovelyn Body Splash
-              </h5>
-              <p className="text-gray-300">
-                Get these fresh and super scented body spalsh.
-              </p>
+              <Image
+                src="/assets/yazz.jpg"
+                alt="me"
+                width="150px"
+                height="150px"
+                layout="responsive"
+                objectFit="cover"
+                className="max-w-lg h-auto rounded-lg transition-all duration-300 cursor-pointer"
+              />
             </a>
-            <div class="flex items-center mt-2.5 mb-1"></div>
-            <div class="flex justify-between items-center">
-              <span class="text-xl font-bold text-gray-400 dark:text-white">
-                GHs 20.00
-              </span>
+            <div class="px-5 pb-1">
+              <a href="#">
+                <h5 class="text-xl font-semibold tracking-tight text-yellow-500 dark:text-yellow">
+                  Yazz Washing Powder
+                </h5>
+                <p className="text-gray-300">
+                  Wash well, Smell fresh with Yazz washing powder.
+                </p>
+              </a>
+              <div class="flex items-center mt-2.5 mb-1"></div>
+              <div class="flex justify-between items-center">
+                <span class="text-xl font-bold text-gray-400 dark:text-white">
+                  GHs 80.00
+                </span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-          <a href="#">
-            <Image
-              src="/assets/nido.jpg"
-              alt="me"
-              width="150px"
-              height="150px"
-              layout="responsive"
-              objectFit="cover"
-              className="max-w-lg h-auto rounded-lg transition-all duration-300 cursor-pointer"
-            />
-          </a>
-          <div class="px-5 pb-1">
+        </Bounce>
+        <Bounce Left>
+          <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <h5 class="text-xl font-semibold tracking-tight text-yellow-500 dark:text-yellow">
-                Nestle Creamy Nido
-              </h5>
-              <p className="text-gray-300">
-                Get a tasty and creamy beverage with Nestle Nido mix today.
-              </p>
+              <Image
+                src="/assets/spray1.jpg"
+                alt="me"
+                width="150px"
+                height="150px"
+                layout="responsive"
+                objectFit="cover"
+                className="max-w-lg h-auto rounded-lg transition-all duration-300 cursor-pointer"
+              />
             </a>
-            <div class="flex items-center mt-2.5 mb-1"></div>
-            <div class="flex justify-between items-center">
-              <span class="text-xl font-bold text-gray-400 dark:text-white">
-                GHs 30.00
-              </span>
+            <div class="px-5 pb-1">
+              <a href="#">
+                <h5 class="text-xl font-semibold tracking-tight text-yellow-500 dark:text-yellow">
+                  Lovelyn Body Splash
+                </h5>
+                <p className="text-gray-300">
+                  Get these fresh and super scented body spalsh.
+                </p>
+              </a>
+              <div class="flex items-center mt-2.5 mb-1"></div>
+              <div class="flex justify-between items-center">
+                <span class="text-xl font-bold text-gray-400 dark:text-white">
+                  GHs 20.00
+                </span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-          <a href="#">
-            <Image
-              src="/assets/wines.jpg"
-              alt="me"
-              width="150px"
-              height="150px"
-              layout="responsive"
-              objectFit="cover"
-              className="max-w-lg h-auto rounded-lg transition-all duration-300 cursor-pointer"
-            />
-          </a>
-          <div class="px-5 pb-5">
+        </Bounce>
+        <Bounce Left>
+          <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <h5 class="text-xl font-semibold tracking-tight text-yellow-500 dark:text-yellow">
-                South African Wine
-              </h5>
-              <p className="text-gray-300">
-                If it is time to dine and wine. Get the best wine right here.
-              </p>
+              <Image
+                src="/assets/nido.jpg"
+                alt="me"
+                width="150px"
+                height="150px"
+                layout="responsive"
+                objectFit="cover"
+                className="max-w-lg h-auto rounded-lg transition-all duration-300 cursor-pointer"
+              />
             </a>
-            <div class="flex items-center mt-2.5 mb-1"></div>
-            <div class="flex justify-between items-center">
-              <span class="text-lg font-bold text-gray-400 dark:text-white">
-                GHs 20.00
-              </span>
+            <div class="px-5 pb-1">
+              <a href="#">
+                <h5 class="text-xl font-semibold tracking-tight text-yellow-500 dark:text-yellow">
+                  Nestle Creamy Nido
+                </h5>
+                <p className="text-gray-300">
+                  Get a tasty and creamy beverage with Nestle Nido mix today.
+                </p>
+              </a>
+              <div class="flex items-center mt-2.5 mb-1"></div>
+              <div class="flex justify-between items-center">
+                <span class="text-xl font-bold text-gray-400 dark:text-white">
+                  GHs 30.00
+                </span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-          <a href="#">
-            <Image
-              src="/assets/rice.png"
-              alt="me"
-              width="150px"
-              height="150px"
-              layout="responsive"
-              objectFit="cover"
-              className="max-w-lg h-auto rounded-lg transition-all duration-300 cursor-pointer"
-            />
-          </a>
-          <div class="px-5 pb-1">
+        </Bounce>
+        <Bounce Left>
+          <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <h5 class="text-xl font-semibold tracking-tight text-yellow-500 dark:text-yellow">
-                Classic Basmati Rice
-              </h5>
-              <p className="text-gray-300">
-                Farmer's harvest Classic Basmati Rice serves you the best meal.
-              </p>
+              <Image
+                src="/assets/wines.jpg"
+                alt="me"
+                width="150px"
+                height="150px"
+                layout="responsive"
+                objectFit="cover"
+                className="max-w-lg h-auto rounded-lg transition-all duration-300 cursor-pointer"
+              />
             </a>
-            <div class="flex items-center mt-2.5 mb-1"></div>
-            <div class="flex justify-between items-center">
-              <span class="text-lg font-bold text-gray-400 dark:text-white">
-                GHs 25.00
-              </span>
+            <div class="px-5 pb-5">
+              <a href="#">
+                <h5 class="text-xl font-semibold tracking-tight text-yellow-500 dark:text-yellow">
+                  South African Wine
+                </h5>
+                <p className="text-gray-300">
+                  If it is time to dine and wine. Get the best wine right here.
+                </p>
+              </a>
+              <div class="flex items-center mt-2.5 mb-1"></div>
+              <div class="flex justify-between items-center">
+                <span class="text-lg font-bold text-gray-400 dark:text-white">
+                  GHs 20.00
+                </span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-          <a href="#">
-            <Image
-              src="/assets/frytol.jpg"
-              alt="me"
-              width="150px"
-              height="150px"
-              layout="responsive"
-              objectFit="cover"
-              className="max-w-lg h-auto rounded-lg transition-all duration-300 cursor-pointer"
-            />
-          </a>
-          <div class="px-5 pb-5">
+        </Bounce>
+        <Bounce Left>
+          <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <h5 class="text-xl font-semibold tracking-tight text-yellow-500 dark:text-yellow">
-                Frytol Cooking Oil
-              </h5>
-              <p className="text-gray-300">
-                The best cooking oil is here and it is frytol cooking oil.
-              </p>
+              <Image
+                src="/assets/rice.png"
+                alt="me"
+                width="150px"
+                height="150px"
+                layout="responsive"
+                objectFit="cover"
+                className="max-w-lg h-auto rounded-lg transition-all duration-300 cursor-pointer"
+              />
             </a>
-            <div class="flex items-center mt-2.5 mb-1"></div>
-            <div class="flex justify-between items-center">
-              <span class="text-lg font-bold text-gray-400 dark:text-white">
-                GHs 20.00
-              </span>
+            <div class="px-5 pb-1">
+              <a href="#">
+                <h5 class="text-xl font-semibold tracking-tight text-yellow-500 dark:text-yellow">
+                  Classic Basmati Rice
+                </h5>
+                <p className="text-gray-300">
+                  Farmer's harvest Classic Basmati Rice serves you the best
+                  meal.
+                </p>
+              </a>
+              <div class="flex items-center mt-2.5 mb-1"></div>
+              <div class="flex justify-between items-center">
+                <span class="text-lg font-bold text-gray-400 dark:text-white">
+                  GHs 25.00
+                </span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-          <a href="#">
-            <Image
-              src="/assets/crackers.jpg"
-              alt="me"
-              width="150px"
-              height="150px"
-              layout="responsive"
-              objectFit="cover"
-              className="max-w-lg h-auto rounded-lg transition-all duration-300 cursor-pointer"
-            />
-          </a>
-          <div class="px-5 pb-5">
+        </Bounce>
+        <Bounce Left>
+          <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
-              <h5 class="text-xl font-semibold tracking-tight text-yellow-500 dark:text-yellow">
-              Cream Crackers
-              </h5>
-              <p className="text-gray-300">
-                Best Crisp crackers that will keep you highly-motivated.
-              </p>
+              <Image
+                src="/assets/frytol.jpg"
+                alt="me"
+                width="150px"
+                height="150px"
+                layout="responsive"
+                objectFit="cover"
+                className="max-w-lg h-auto rounded-lg transition-all duration-300 cursor-pointer"
+              />
             </a>
-            <div class="flex items-center mt-2.5 mb-1"></div>
-            <div class="flex justify-between items-center">
-              <span class="text-lg font-bold text-gray-400 dark:text-white">
-                GHs 10.00
-              </span>
+            <div class="px-5 pb-5">
+              <a href="#">
+                <h5 class="text-xl font-semibold tracking-tight text-yellow-500 dark:text-yellow">
+                  Frytol Cooking Oil
+                </h5>
+                <p className="text-gray-300">
+                  The best cooking oil is here and it is frytol cooking oil.
+                </p>
+              </a>
+              <div class="flex items-center mt-2.5 mb-1"></div>
+              <div class="flex justify-between items-center">
+                <span class="text-lg font-bold text-gray-400 dark:text-white">
+                  GHs 20.00
+                </span>
+              </div>
             </div>
           </div>
-        </div>
+        </Bounce>
+        <Bounce Left>
+          <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+              <Image
+                src="/assets/crackers.jpg"
+                alt="me"
+                width="150px"
+                height="150px"
+                layout="responsive"
+                objectFit="cover"
+                className="max-w-lg h-auto rounded-lg transition-all duration-300 cursor-pointer"
+              />
+            </a>
+            <div class="px-5 pb-5">
+              <a href="#">
+                <h5 class="text-xl font-semibold tracking-tight text-yellow-500 dark:text-yellow">
+                  Cream Crackers
+                </h5>
+                <p className="text-gray-300">
+                  Best Crisp crackers that will keep you highly-motivated.
+                </p>
+              </a>
+              <div class="flex items-center mt-2.5 mb-1"></div>
+              <div class="flex justify-between items-center">
+                <span class="text-lg font-bold text-gray-400 dark:text-white">
+                  GHs 10.00
+                </span>
+              </div>
+            </div>
+          </div>
+        </Bounce>
       </div>
 
       <div className="flex justify-center font-bold text-blue-900 text-3xl mt-40 mb-5 bg-pink-200 p-8">

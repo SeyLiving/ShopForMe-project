@@ -1,6 +1,6 @@
 // import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
-import Foot from '../components/Foot';
+import Navbar from "../components/Navbar";
+import Foot from "../components/Foot";
 
 const Contact = () => {
   return (
