@@ -4,9 +4,11 @@ import { useRouter } from "next/router";
 
 const AddProduct = () => {
   const [data, setData] = useState({
-    name: "",
+    item: "",
     price: "",
     quantity: "",
+    location: "",
+    telephone: "",
   });
   const [error, setError] = useState("");
   const router = useRouter();

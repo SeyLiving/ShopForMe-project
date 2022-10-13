@@ -4,7 +4,7 @@ import Main from './Main';
 import Footer from './Footer';
 import Navbar from './Navbar';
 import Contact from '../pages/contact';
-import Foot from './foot';
+import Foot from './Foot';
 
 const Layout = ({ title }) => {
   return (
