@@ -309,7 +309,7 @@ const Main = () => {
                 Classic Basmati Rice
               </h5>
               <p className="text-gray-300">
-                Farmers harvest Classic Basmati Rice serves you the best meal.
+                `Farmer's`; harvest Classic Basmati Rice serves you the best meal.
               </p>
             </a>
             <div class="flex items-center mt-2.5 mb-1"></div>
