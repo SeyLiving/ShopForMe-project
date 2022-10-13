@@ -32,88 +32,10 @@ const Form = () => {
   return (
     <>
       <Navbar />
-      {/* <div className=" bg-gray-400/30 flex flex-col justify-center items-center mb-2">
-        <h3 className=" mt-40 text-3xl mb-7 tracking-widest">
-          LET US SHOP FOR YOU 😊
-        </h3>
-
-        <form className="mt-5  border-2 max-w-xl w-full p-5 rounded space-y-3">
-          <p className=" text-center uppercase  font-bold">
-            {" "}
-            Send Us Your List
-          </p>
-          <div className="">
-            <label htmlFor="title" className="block">
-              <p className="">Name</p>
-            </label>
-            <input
-              type="text"
-              id="title"
-              name="title"
-              className="border w-full p-1 outline-none mt-2 rounded-md"
-            />
-          </div>
-
-          <div className="">
-            <label htmlFor="title" className="block">
-              Phone Number
-            </label>
-            <input
-              type="text"
-              id="title"
-              name="title"
-              className="border w-full p-1 outline-none mt-2 rounded-md"
-            />
-          </div>
-          <div className="">
-            <label htmlFor="title" className="block">
-              Location
-            </label>
-            <input
-              type="text"
-              id="title"
-              name="title"
-              className="border w-full p-1 outline-none mt-2 rounded-md"
-            />
-          </div>
-
-          <div className="">
-            <label htmlFor="body" className="block">
-              Type your list here
-            </label>
-            <textarea
-              name="body"
-              id="body"
-              type="text"
-              cols="30"
-              rows="10"
-              className="border w-full p-1 outline-none mt-2 rounded-md"
-            ></textarea>
-          </div>
-
-          <div className="flex justify-center">
-            <button className="mt-2 border rounded-md text-yellow-900 shadow-lg py-3 px-8 hover:bg-cyan-500 hover:text-white duration-200 tracking-widest capitalize">
-              send
-            </button>
-          </div>
-        </form>
-      </div> */}
+    
       <div className="bg-gray-400/30 flex flex-col justify-center items-center mb-40">
         <div className="bg-slate-400 w-full p-10 max-w-2xl mt-40 mb-5 rounded-md">
           <form className="space-y-3 mb-5" onSubmit={handleSubmit}>
-            {/* <div>
-              <label className="block text-lg" htmlFor="item">
-                Item
-              </label>
-              <input
-                className="border w-full p-2"
-                type="text"
-                name="item"
-                id="item"
-                value={singleItem.item}
-                onChange={handleChange}
-              />
-            </div> */}
 
             <label
               htmlFor="item"
