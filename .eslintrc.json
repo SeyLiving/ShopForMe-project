@@ -1,6 +1,6 @@
 {
-  "extends": "next/babel", "next/core-web-vitals",
-  "rules" : {
+  "extends": "next/core-web-vitals",
+  "rules": {
     "react/nounescaped-entities": "off",
     "@next/next/no-page-custom-font": "off"
   }
