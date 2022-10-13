@@ -115,7 +115,7 @@ const AddProduct = () => {
               </div>
             </div>
             <div className="flex justify-end">
-              <button className="border px-5 py-2 rounded" type="submit">
+              <button className="border px-5 py-2 rounded font-bold" type="submit">
                 Add Item
               </button>
             </div>
@@ -147,7 +147,7 @@ const AddProduct = () => {
             )}
           </div>
           <div>
-            <button className="border py-2 px-4 rounded w-full mt-5">
+            <button className="border py-2 px-4 rounded w-full font-bold mt-5">
               Submit List
             </button>
           </div>
