@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Navbar from "../../components/Navbar";
-import Foot from "../../components/Foot";
+import Navbar from "../components/Navbar";
+import Foot from "../components/Foot";
 import { v4 as uuid } from "uuid";
 
 const initialState = {

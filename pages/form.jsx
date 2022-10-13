@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Navbar from "../components/Navbar";
-import Foot from "../components/Foot";
+import Navbar from "./components/Navbar";
+import Foot from "./components/Foot";
 import { v4 as uuid } from "uuid";
 
 const initialState = {
@@ -32,11 +32,10 @@ const Form = () => {
   return (
     <>
       <Navbar />
-    
+
       <div className="bg-gray-400/30 flex flex-col justify-center items-center mb-40">
         <div className="bg-slate-400 w-full p-10 max-w-2xl mt-40 mb-5 rounded-md">
           <form className="space-y-3 mb-5" onSubmit={handleSubmit}>
-
             <label
               htmlFor="item"
               className=" text-lg font-medium text-gray-900 dark:text-gray-700"
@@ -127,9 +126,9 @@ const Form = () => {
             )}
           </div>
           <div>
-              <button className="border py-2 px-4 rounded w-full mt-5">
-                Submit List
-              </button>
+            <button className="border py-2 px-4 rounded w-full mt-5">
+              Submit List
+            </button>
           </div>
         </div>
       </div>

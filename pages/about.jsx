@@ -1,11 +1,11 @@
-import Image from 'next/image';
+import Image from "next/image";
 // import Link from 'next/link';
-import React from 'react';
+import React from "react";
 // import { BsTwitter } from 'react-icons/bs';
 // import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 // import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
-import Foot from "../components/Foot";
+import Navbar from "./components/Navbar";
+import Foot from "./components/Foot";
 
 const About = () => {
   return (
@@ -20,13 +20,13 @@ const About = () => {
             </h1>
             <p className="mb-8 mt-3 flex justify-around tracking-widest text-xl font-style: italic font-md text-gray-900">
               ShopForMe is an online supermarket that offers users the
-              opportunity to tender in a list of their necessary items;
-              ranging from home care products, packaged
-              foodstuff, cosmetics, clothing and others. We will then shop for
-              these items on your behalf, request and assign our errand or service
-              persons to deliver these items to your location. 
-              And also, please take note. We have all the
-              best deals in terms of pricing, discounts and quality of products.
+              opportunity to tender in a list of their necessary items; ranging
+              from home care products, packaged foodstuff, cosmetics, clothing
+              and others. We will then shop for these items on your behalf,
+              request and assign our errand or service persons to deliver these
+              items to your location. And also, please take note. We have all
+              the best deals in terms of pricing, discounts and quality of
+              products.
               <br />
               Below is a catalogue of our competent staff and service persons
               who are always willing and ready to undertake all your delivery
@@ -34,7 +34,6 @@ const About = () => {
             </p>
           </div>
         </section>
-
 
         {/* <div className="flex flex-col md:flex-row justify-center ">
           <div className="shadow-xl rounded-md border-5 bg-slate-500 h-[30rem] w-[25rem] m-10 p-8">
@@ -128,7 +127,6 @@ const About = () => {
           </h1>
         </div>
 
-
         <div className="grid sm:grid-cols-2 lg:gap-[2rem] mx-60 bg-blue-200 mb-40">
           <div class="bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
@@ -178,13 +176,11 @@ const About = () => {
           </div>
         </div>
 
-
         <div className="">
           <h1 className="flex justify-center tracking-widest text-2xl uppercase py-2 px-5 font-bold text-blue-900">
             Our Staff
           </h1>
         </div>
-
 
         <div className="grid md:grid-cols-6 lg:gap-[1rem] mx-20 bg-blue-200 mb-20">
           <div class="bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
@@ -323,13 +319,11 @@ const About = () => {
           </div>
         </div>
 
-
         <div className=" mt-10">
           <h2 className="flex justify-center uppercase text-2xl tracking-widest mb-5 mt-40 font-bold text-blue-900">
             Errand / Service Delivery Persons
           </h2>
         </div>
-
 
         <div className="grid md:grid-cols-4 lg:gap-[1rem] mx-20 bg-blue-200 mb-20">
           <div class="bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">

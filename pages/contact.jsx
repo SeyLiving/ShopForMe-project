@@ -1,6 +1,6 @@
 // import Footer from '../components/Footer';
-import Navbar from "../components/Navbar";
-import Foot from "../components/Foot";
+import Navbar from "./components/Navbar";
+import Foot from "./components/Foot";
 
 const Contact = () => {
   return (
@@ -8,7 +8,9 @@ const Contact = () => {
       <Navbar />
 
       <div className="flex flex-col justify-center items-center mb-20">
-        <h3 className=" mt-28 font-semibold text-2xl text-yellow-400 mb-2">Contact Us</h3>
+        <h3 className=" mt-28 font-semibold text-2xl text-yellow-400 mb-2">
+          Contact Us
+        </h3>
 
         <form className="mt-5 border-2 max-w-xl w-full p-5 rounded space-y-3">
           <p className=" text-center uppercase  font-bold"> Leave a Message</p>
