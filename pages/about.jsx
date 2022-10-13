@@ -5,7 +5,7 @@ import React from 'react';
 // import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 // import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-import Foot from '../components/foot';
+import Foot from '../components/Foot';
 
 const About = () => {
   return (

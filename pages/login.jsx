@@ -1,8 +1,7 @@
-import Image from 'next/image';
+import Image from "next/image";
 import React, { useState } from "react";
 import { useRouter } from "next/router";
-import Link from 'next/link';
-
+import Link from "next/link";
 
 const Login = () => {
   const [data, setData] = useState({
@@ -36,8 +35,9 @@ const Login = () => {
 
   // function Login() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 h-screen w-full"
-    onSubmit={handleSubmit}
+    <div
+      className="grid grid-cols-1 sm:grid-cols-2 h-screen w-full"
+      onSubmit={handleSubmit}
     >
       <div className="hidden sm:block">
         <Image

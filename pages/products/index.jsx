@@ -1,16 +1,15 @@
-import React from 'react'
+import React from "react";
 import { getProducts } from "../../utils/getProducts";
-import Link from "link/next"
+import Link from "next/link";
 
+export async function getStaticProps() {
+  const posts = await getProducts();
 
-export async function getStaticProps () {
-    const posts = await getProducts();
-
-    return {
-        props: {
-            posts,
-        },
-    };
+  return {
+    props: {
+      posts,
+    },
+  };
 }
 
 const Products = ({ products }) => {
@@ -25,7 +24,6 @@ const Products = ({ products }) => {
       ))}
       <h1>Posts</h1>
     </div>
-    
   );
 };
 
