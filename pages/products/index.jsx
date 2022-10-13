@@ -18,11 +18,11 @@ const Products = ({ products }) => {
   return (
     <div>
       {products?.map((product, idx) => (
-        <P key={idx}>
+        <p key={idx}>
           <div>
             <Link href={`/products/${product._id}`}>{product.title}</Link>
           </div>
-        </P>
+        </p>
       ))}
       <h1>Products</h1>
     </div>

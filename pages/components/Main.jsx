@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { ImQuotesLeft } from 'react-icons/im';
-import Bounce  from "react-reveal/Bounce";
+// import Bounce  from "react-reveal/Bounce";
 
 const Main = () => {
   return (
