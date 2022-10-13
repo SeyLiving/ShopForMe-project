@@ -1,8 +1,8 @@
 import axios from "axios";
-import React, { useState } from "react";
+import { React, useState } from "react";
 import { useRouter } from "next/router";
 
-const signup = () => {
+const Signup = () => {
   const [data, setData] = useState({
     firstName: "",
     lastName: "",
@@ -196,4 +196,4 @@ const signup = () => {
   );
 };
 
-export default signup;
+export default Signup;
