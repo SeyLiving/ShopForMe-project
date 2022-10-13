@@ -25,7 +25,7 @@ const Main = () => {
       </div>
 
       <div className="grid md:grid-cols-4 m-2    lg:gap-[2rem] mx-20 bg-pink-200 ">
-        <Bounce Left>
+        
           <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <Image
@@ -53,8 +53,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-        </Bounce>
-        <Bounce Left>
+        
           <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <Image
@@ -84,8 +83,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-        </Bounce>
-        <Bounce Left>
+        
           <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <Image
@@ -116,8 +114,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-        </Bounce>
-        <Bounce Left>
+        
           <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <Image
@@ -147,8 +144,8 @@ const Main = () => {
               </div>
             </div>
           </div>
-        </Bounce>
-        <Bounce Left>
+       
+       
           <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <Image
@@ -178,8 +175,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-        </Bounce>
-        <Bounce Left>
+      
           <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <Image
@@ -209,8 +205,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-        </Bounce>
-        <Bounce Left>
+       
           <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <Image
@@ -240,8 +235,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-        </Bounce>
-        <Bounce Left>
+        
           <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <Image
@@ -271,8 +265,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-        </Bounce>
-        <Bounce Left>
+       
           <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <Image
@@ -302,8 +295,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-        </Bounce>
-        <Bounce Left>
+       
           <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <Image
@@ -334,8 +326,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-        </Bounce>
-        <Bounce Left>
+       
           <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <Image
@@ -365,8 +356,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-        </Bounce>
-        <Bounce Left>
+
           <div class="w-full max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
               <Image
@@ -396,7 +386,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-        </Bounce>
+        
       </div>
 
       <div className="flex justify-center font-bold text-blue-900 text-3xl mt-40 mb-5 bg-pink-200 p-8">
